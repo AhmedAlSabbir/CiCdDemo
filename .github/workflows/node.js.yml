@@ -38,6 +38,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "arif-cicd"
-          heroku_email: "bsse0809@iit.du.ac.bd"
+          heroku_app_name: "alsabbir-cicd"
+          heroku_email: "bsse1016@iit.du.ac.bd"
           procfile: "web: node index.js"
